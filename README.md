@@ -156,8 +156,6 @@ Weather Analysis/
 
 ## Screenshots
 
-> **Add your own screenshots here** by placing images in `assets/screenshots/` and updating the paths below.
-
 ### Dashboard — Unified City View
 ![Dashboard](assets/screenshots/dashboard.png)
 *Hero current conditions, KPI cards, forecast carousel, AQI gauge*
