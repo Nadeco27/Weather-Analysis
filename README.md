@@ -1,6 +1,6 @@
 # Jabodetabek Climate Analytics
 
-> A climate dashboard for the Greater Jakarta (Jabodetabek) region. Built with Streamlit, Plotly, and a custom design system — featuring historical decadal analysis, BMKG weather forecasts, and real-time air quality monitoring.
+> A climate dashboard for the Greater Jakarta (Jabodetabek) region. Built with Streamlit, and Plotly — featuring historical decadal analysis, BMKG weather forecasts, and real-time air quality monitoring.
 
 ---
 
