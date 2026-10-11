@@ -78,7 +78,7 @@ def computeCityKpis(dailyDataFrame: pd.DataFrame, extremeThreshold: float = 50.0
     
     maxRainRow = dailyDataFrame.loc[dailyDataFrame["precipitation_sum"].idxmax()]
     highestDailyRainfall = round(float(maxRainRow["precipitation_sum"]), 1)
-    highestDailyRainCity = f"{maxRainRow['cityName']} ({maxRainRow['time'].strftime('%b %Y')})"
+    highestDailyRainCity = f"{maxRainRow['cityName']} ({maxRainRow['time'].strftime('%d/%m/%Y')})"
     
     totalExtremeRainDays = int((dailyDataFrame["precipitation_sum"] >= extremeThreshold).sum())
 
